@@ -1,0 +1,93 @@
+{
+  "name": "alecis-v3",
+  "version": "3.0.0",
+  "season": 12,
+  "build": "12.41",
+  "ports": {
+    "http": 3551,
+    "https": 443,
+    "xmpp": 80,
+    "xmppWss": 4433,
+    "matchmaker": 8081,
+    "website": 3000,
+    "caldera": 5000
+  },
+  "mongodb": "mongodb://127.0.0.1:27017/alecis_v3",
+  "jwtSecret": "change-this-secret",
+  "publicUrl": "http://127.0.0.1:3551",
+  "discord": {
+    "enabled": false,
+    "token": "",
+    "clientId": "",
+    "guildId": "",
+    "moderatorRoleId": ""
+  },
+  "features": {
+    "autoShop": true,
+    "ssl": false,
+    "https": false,
+    "battlePass": true,
+    "battlePassSeason": 12,
+    "events": {
+      "c2s2": {
+        "enabled": true,
+        "deviceEvent": false,
+        "doomsday": false
+      },
+      "winterfest": {
+        "enabled": false,
+        "version": "11.31"
+      }
+    }
+  },
+  "shop": {
+    "refreshIntervalHours": 24,
+    "dailySlots": 6,
+    "featuredSlots": 2
+  },
+  "rewards": {
+    "killVbucks": 5,
+    "winVbucks": 25,
+    "killXp": 50,
+    "winXp": 300,
+    "xpPerLevel": 80000
+  },
+  "gameApiKey": "change-this-api-key",
+  "gameServers": [
+    {
+      "ip": "127.0.0.1",
+      "port": 7777,
+      "playlist": "Playlist_DefaultSolo",
+      "region": "EU",
+      "status": "online"
+    }
+  ],
+  "matchmaker": {
+    "enabled": true,
+    "ticketTimeoutMs": 60000,
+    "sessionTimeoutMs": 300000
+  },
+  "sac": {
+    "enabled": true,
+    "creatorVbucksReward": 5
+  },
+  "tournaments": {
+    "enabled": true,
+    "hypePerKill": 1,
+    "hypePerWin": 10
+  },
+  "arena": {
+    "enabled": true,
+    "divisions": [
+      { "name": "Open League I", "minHype": 0, "busFare": 0 },
+      { "name": "Open League II", "minHype": 500, "busFare": 0 },
+      { "name": "Open League III", "minHype": 1000, "busFare": 0 },
+      { "name": "Contender League I", "minHype": 1500, "busFare": 10 },
+      { "name": "Contender League II", "minHype": 2500, "busFare": 10 },
+      { "name": "Contender League III", "minHype": 4000, "busFare": 10 },
+      { "name": "Champion League I", "minHype": 6000, "busFare": 20 },
+      { "name": "Champion League II", "minHype": 9000, "busFare": 20 },
+      { "name": "Champion League III", "minHype": 12000, "busFare": 20 }
+    ]
+  }
+}

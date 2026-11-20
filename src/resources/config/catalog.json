@@ -1,0 +1,83 @@
+{
+  "refreshIntervalHrs": 24,
+  "storefronts": {
+    "BRDailyStorefront": [],
+    "BRWeeklyStorefront": []
+  },
+  "daily": [
+    {
+      "itemGrants": [
+        "AthenaDance:EID_DanceMoves"
+      ],
+      "price": 200,
+      "categories": [
+        "Panel 1"
+      ]
+    },
+    {
+      "itemGrants": [
+        "AthenaPickaxe:Pickaxe_ID_011_Medieval"
+      ],
+      "price": 500,
+      "categories": [
+        "Panel 2"
+      ]
+    },
+    {
+      "itemGrants": [
+        "AthenaGlider:Glider_ID_003_District"
+      ],
+      "price": 500,
+      "categories": [
+        "Panel 3"
+      ]
+    },
+    {
+      "itemGrants": [
+        "AthenaBackpack:BID_004_BlackKnight"
+      ],
+      "price": 200,
+      "categories": [
+        "Panel 4"
+      ]
+    },
+    {
+      "itemGrants": [
+        "AthenaDance:EID_Wave"
+      ],
+      "price": 200,
+      "categories": [
+        "Panel 5"
+      ]
+    },
+    {
+      "itemGrants": [
+        "AthenaDance:EID_Fresh"
+      ],
+      "price": 500,
+      "categories": [
+        "Panel 6"
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "itemGrants": [
+        "AthenaCharacter:CID_028_Athena_Commando_F"
+      ],
+      "price": 1200,
+      "categories": [
+        "Panel 1"
+      ]
+    },
+    {
+      "itemGrants": [
+        "AthenaCharacter:CID_017_Athena_Commando_M"
+      ],
+      "price": 800,
+      "categories": [
+        "Panel 2"
+      ]
+    }
+  ]
+}
